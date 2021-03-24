@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900i&display=swap');
+
+* {
+    background-color: black;
+    text-align:center;
+}
+
+h1 {
+    font-size:12vw;
+    text-decoration: underline;
+    color:white;
+}
+
+#user_name {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    position: absolute;
+    top:22%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size:17vw;
+	letter-spacing:0.1em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color:greenyellow;
+    text-shadow: 
+						8px 8px greenyellow,
+						20px 20px #ff1f8f;
+}
+
+footer, a {
+    margin-top: 250px;
+    color:red;
+    font-size: 8vw;
+    text-decoration: none;
+} 
+
+a:hover {
+    color:yellow;
+}
+
+@media (min-width: 320px) {
+    h1 {
+        font-size: 30px;
+    }
+    #user_name {
+        top: 25%;
+    }
+    footer, a {
+        margin-top:320px;
+        font-size:19px;
+    }
+}
+
+@media (min-width: 400px) {
+    h1 {
+        font-size: 33px;
+    }
+    #user_name {
+        top: 35%;
+    }
+    footer, a {
+        margin-top:440px;
+        font-size:19px;
+    }
+}
+
+@media (min-width: 550px) {
+    h1 {
+        font-size: 40px;
+    }
+    #user_name {
+        top: 42%;
+    }
+    footer, a {
+        margin-top:565px;
+        font-size:20px;
+    }
+}
+
+@media (min-width: 700px) {
+    h1 {
+        font-size: 45px;
+    }
+    #user_name {
+        top: 50%;
+    }
+    footer, a {
+        margin-top:610px;
+        font-size:22px;
+    }
+}
+
+@media (min-width: 800px) {
+    h1 {
+        font-size: 40px;
+    }
+    #user_name {
+        top: 50%;
+        font-size: 130px;
+    }
+    footer, a {
+        margin-top:630px;
+        font-size:25px;
+    }
+}
+
+
+
+
+
+
