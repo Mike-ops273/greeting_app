@@ -39,7 +39,7 @@ a:hover {
     color:yellow;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 315px) {
     h1 {
         font-size: 30px;
     }
@@ -100,7 +100,7 @@ a:hover {
         font-size: 130px;
     }
     footer, a {
-        margin-top:630px;
+        margin-top:720px;
         font-size:25px;
     }
 }
